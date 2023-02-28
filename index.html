@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cours HTML</title>
+  <link rel="shortcut icon" href="logo-html.png">
+</head>
+
+<body>
+
+  <section>
+    <header>
+      <div>
+        <h1>Titre - H1 &#9760</h1>
+        <p>Les vidéos vous permettent de faire passer votre message de façon convaincante.
+          <em>Quand vous cliquez sur Vidéo en ligne, vous pouvez coller le code incorporé de la vidéo que vous souhaitez
+            ajouter.</em>
+          <strong>Vous pouvez également taper un mot-clé pour rechercher en ligne la vidéo qui convient le mieux à votre
+            document.</strong>
+        </p>
+      </div>
+    </header>
+    <div>
+      <h2>Titre - H2 Image</h2>
+      <img src="wp_hacker2.jpg" alt="image-paysage" width="30%">
+    </div>
+    <div>
+      <h3>Titre - H3 Liste</h3>
+      <ul> UL = unordered list
+        <li>liste 1</li>
+        <li>liste 2</li>
+        <li>liste 3</li>
+      </ul>
+      <ol>
+        OL = Ordered list
+        <li>liste A</li>
+        <li>liste B</li>
+        <li>liste C</li>
+      </ol>
+    </div>
+    <div>
+      <h4>Titre - H4 Tableaux</h4>
+      <table border="1" width="50%">
+        <caption>Population d'europe</caption>
+        <thead>
+          <tr>
+            <th>Pays</th>
+            <th>Population</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>France</td>
+            <td>66 M</td>
+          </tr>
+          <tr>
+            <td>Allemagne</td>
+            <td>82 M</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <h5>
+        Titre - H5 Lien</h5>
+      <a href="http://htmlcheatsheet.com" target="_blank">HTML Cheat Sheet</a>
+      <br>
+      <a href="http://toptal.com" target="_blank">Icone en HTML</a>
+    </div>
+    <div>
+      <h6>Titre - H6 Video</h6>
+      <video src="Volcano.mp4" autoplay loop muted width="80%"></video>
+    </div>
+  </section>
+  <br>
+  <section>
+    <h2>Formulaire</h2>
+    <form action="/actio.php" method="post">
+      <label for="name">Vehicule : </label><input id="name" type="text" placeholder="Entrez votre Vehicule">
+      <br>
+      <label for="vitesse">Vitesse : </label><input id="vitesse" type="number" min="30" step="2.5" value="30"> km/h
+      <label for="marque">Marque</label>
+      <br>
+      <select id="marque">
+        <option selectedvalue="RENAULT">Renault</option>
+        <option value="PEUGEOT">Peugeot</option>
+      </select>
+      <br>
+      <div>
+        <label for="human">Humain</label>
+        <input id="human" name="espece" type="radio">
+
+        <label for="animal">Chat</label>
+        <input id="animal" name="espece" type="radio" checked>
+      </div>
+
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <br>
+      <!-- Input checkbox -->
+      <input type="checkbox"> Accepter le CCAP
+      <input type="checkbox"> Accepter le CCTP
+      <br>
+      <input type="submit" value="Cliquez pour valider toute les données du <form>">
+      <br>
+      <!-- Mail et envoie de fichier -->
+      <footer>
+        <p>Par mail à l'adresse : <br><a
+            href="mailto:drmika@info.fr?subject=Demande d'information&bcc=mikafinance@live.fr&body=Bonjour">drmika@info.fr</a>
+        </p>
+        <a href="notice.txt" download="nom-du-fichier">Telecharger la notice</a>
+      </footer>
+
+
+
+    </form>
+  </section>
+
+</body>
+
+</html>
